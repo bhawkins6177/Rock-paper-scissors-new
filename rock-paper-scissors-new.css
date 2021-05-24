@@ -1,0 +1,52 @@
+button {
+    background-color: rgb(48, 133, 182);
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif
+    
+    
+}
+
+button:hover {
+  background-color: rgb(130, 194, 189);
+
+}
+div#buttons {
+  background-color: rgb(10, 31, 88);
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 50vh;
+  align-items: center;
+  border-radius: 20px;
+}
+div#PlayerScore {
+  background-color: burlywood;
+  min-height: 25vh;
+}
+
+div#ComputerScore {
+  background-color: cornflowerblue;
+  min-height: 25vh;
+}
+div#HeaderforPlayer {
+display: flex;
+background-color: burlywood;
+align-items: center;
+justify-content: space-evenly;
+}
+
+div#HeaderforComputer {
+  display: flex;
+  background-color:cornflowerblue ;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ScDisplay{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+} 
+}
